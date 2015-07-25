@@ -15,7 +15,7 @@ You can create folders and link to other pages - see the '[hello world](http://m
 
 That stuff at the top of the file is called '[front matter](http://jekyllrb.com/docs/frontmatter/)' which is basically settings for your page, like chosing a template, as well as other options that may be available in a custom template (as a developer if you're not sure). Most commonly '`title`' allows you to set the text which appears in the tab (or top of) your browser.
 
-By the way, this is the '`plain`' HTML `layout`, which has not stylesheet at all.
+By the way, this is the '`plain`' HTML `layout`, which has a GitHub appearance.
 
 ## For developers…
 
