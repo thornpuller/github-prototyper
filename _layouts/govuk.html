@@ -146,16 +146,30 @@
     {{ content }}
 
 
-  <footer><nav class="pagination" role="navigation" aria-label="Pagination"><ul class="group">
-<li class="previous">
-            <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/banned-items" rel="prev" title="Navigate to previous part">
-              <span class="pagination-label">Previous </span> <span class="pagination-part-title">Banned items</span>
-</a>          </li>
+  <footer>
+    {% if page.next or page.previous %}
+    <nav class="pagination" role="navigation" aria-label="Pagination">
+      <ul class="group">
+        {% if page.previous %}
+          <li class="previous">
+            <a href="{{ page.previous.link }}" rel="prev" title="Navigate to previous part">
+              <span class="pagination-label">Previous </span> <span class="pagination-part-title">{{ page.previous.text }}</span>
+            </a>
+          </li>
+        {% endif %}
+        {% if page.next %}
           <li class="next">
-            <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/visiting-someone-in-prison" rel="next" title="Navigate to next part">
-              <span class="pagination-label">Next</span> <span class="pagination-part-title">Visiting someone in prison</span>
-</a>          </li>
-    </ul></nav></footer><div class="print-link"><a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/print" rel="nofollow">Print entire guide</a></div>
+            <a href="{{ page.next.link }}" rel="next" title="Navigate to next part">
+              <span class="pagination-label">Next</span> <span class="pagination-part-title">{{ page.next.text }}</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% endif %}
+  </footer>
+
+  <div class="print-link"><a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/print" rel="nofollow">Print entire guide</a></div>
 
       </div>
     </div>
