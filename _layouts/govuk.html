@@ -110,37 +110,32 @@
     <div class="content-block">
       <div class="inner">
 
-  <aside><div class="inner">
-    <nav role="navigation" class="page-navigation" aria-label="parts to this guide"><ol>
-<li>
-                <span class="part-number">1.</span>
-                <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/letters-and-telephone-calls" title="Part 1: Letters and telephone calls">Letters and telephone calls</a>
-              </li>
-              <li>
-                <span class="part-number">2.</span>
-                <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/the-internet-and-social-media" title="Part 2: The internet and social media">The internet and social media</a>
-              </li>
-              <li>
-                <span class="part-number">3.</span>
-                <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/banned-items" title="Part 3: Banned items">Banned items</a>
-              </li>
-        </ol>
-<ol start="4">
-<li class="active">
-                <span class="part-number">4.</span>
-                <span>Sending money</span>
-              </li>
-              <li>
-                <span class="part-number">5.</span>
-                <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/visiting-someone-in-prison" title="Part 5: Visiting someone in prison">Visiting someone in prison</a>
-              </li>
-              <li>
-                <span class="part-number">6.</span>
-                <a href="https://www.gov.uk/staying-in-touch-with-someone-in-prison/get-help-with-travel-costs-to-prison" title="Part 6: Get help with travel costs to prison">Get help with travel costs to prison</a>
-              </li>
-        </ol></nav>
-</div>
-</aside><header><h1>{{ page.subheader }}</h1>
+  {% if page.jumplinks %}
+    <aside>
+      <div class="inner">
+        <nav role="navigation" class="page-navigation" aria-label="parts to this guide">
+          <ol>
+            {% for jumplink in page.jumplinks %}
+              {% for link in jumplink %}
+                <li {% if link[1] != true %}class="active"{% endif %}>
+                  <span class="part-number">{{ forloop.index }}.</span>
+                  {% if link[1] %}
+                    <a href="{{ link[1] }}" title="Part {{ forloop.index }}: {{ link[0] }}">
+                  {% endif %}
+                  {{ link[0] }}
+                  {% if link[1] %}
+                    </a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            {% endfor %}
+          </ol>
+        </nav>
+      </div>
+    </aside>
+  {% endif %}
+
+<header><h1>{{ page.subheader }}</h1>
     </header>
 
     {{ content }}

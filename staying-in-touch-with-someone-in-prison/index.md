@@ -6,12 +6,19 @@ breadcrumbs:
   - Home: https://www.gov.uk/
   - Crime, justice and the law: https://www.gov.uk/browse/justice
   - Prisons and probation: https://www.gov.uk/browse/justice/prisons-probation
+jumplinks:
+  - Letters and telephone calls: https://www.gov.uk/
+  - The internet and social media: https://www.gov.uk/
+  - Banned items: https://www.gov.uk/
+  - Sending money:
+  - Visiting someone in prison: https://www.gov.uk/
+  - Get help with travel costs to prison: https://www.gov.uk/
 related:
   title: Prisons and probation
   links:
-  - Support for families and friends of prisoners: https://www.gov.uk/support-for-families-friends-of-prisoners
-  - Prison life: https://www.gov.uk/life-in-prison
-  - Find a prison: https://www.gov.uk/find-prisoner
+    - Support for families and friends of prisoners: https://www.gov.uk/support-for-families-friends-of-prisoners
+    - Prison life: https://www.gov.uk/life-in-prison
+    - Find a prison: https://www.gov.uk/find-prisoner
   more: https://www.gov.uk/browse/justice/prisons-probation
 previous:
   text: Banned items
