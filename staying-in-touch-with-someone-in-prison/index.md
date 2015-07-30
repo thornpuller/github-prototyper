@@ -73,7 +73,7 @@ The prison service account number `48301337`
 
 The prison service sort code `45-50-55`
 
-The money should arrive in the prisoner’s account in 1 working day.
+The money should arrive in the prisoner’s prison account in 2 working days <sup> * </sup>.
 
 If you have any questions about how to make a payment you should contact your bank or building society.
 
@@ -83,6 +83,8 @@ You can use all the same details to make a payment outside the UK, plus these de
 
 Swift / BIC code
 `NOMSGB22`
+
+ <sup> * </sup> Your bank may take longer to process payments (up to 3 working days). 
 
 ## Send a cheque, postal order or cash
 
