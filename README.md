@@ -27,7 +27,7 @@ layout        | name of the template `govuk`
 title         | Page title appears in 
 subheader     | 4. Sending money
 breadcrumbs   | a list of links. List each line with a hyphen. Each link has a text, followed by a colon, then the link. E.g `- Home: https://www.gov.uk/`
-related       | has two sub-items:<br> `title` - the heading on the related info<br>`links` - a list of links
+related       | has three sub-items:<br> `title` - the heading on the related info<br>`links` - a list of links<br>`more` - just a link at the end
 previous      | has two sub-items:<br> `text` - text label<br>`link` - a link
 next          | has two sub-items:<br> `text` - text label<br>`link` - a link
 

@@ -199,7 +199,9 @@
               </li>
             {% endfor %}
 
+            {% if page.related.more %}
                 <li class="related-topic"><a href="{{ page.related.more }}">More <span class="visuallyhidden">in {{ page.related.title }}</span></a></li>
+            {% endif %}
 
             </ul></nav>
 </div>
