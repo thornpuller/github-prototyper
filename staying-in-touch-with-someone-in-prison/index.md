@@ -65,7 +65,7 @@ _**An example of how to write the payment reference**_
   </li>
 </ul>
 
-Bank details
+## Bank details
 
 All public prisons in England and Wales use the same bank account to receive money sent to prisoners. Make a payment using these details:
 
@@ -95,6 +95,6 @@ Make sure the cheque is written out to ‘NOMS Agency’. Send cheques, postal o
 
 The money is then paid into their prison account - a basic cash account they can use to send and receive money.
 
-Privately-run prisons
+## Privately-run prisons
 
 Contact the prison directly if you want to send money to someone in a privately-run prison.
