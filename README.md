@@ -17,6 +17,20 @@ That stuff at the top of the file is called '[front matter](http://jekyllrb.com/
 
 By the way, this is the '`plain`' HTML `layout`, which has a GitHub appearance.
 
+## Layout options
+
+### govuk
+
+Variable      | Description
+------------- | -----------
+layout        | name of the template `govuk`
+title         | Page title appears in 
+subheader     | 4. Sending money
+breadcrumbs   | a list of links. List each line with a hyphen. Each link has a text, followed by a colon, then the link. E.g `- Home: https://www.gov.uk/`
+related       | has two sub-items:<br> `title` - the heading on the related info<br>`links` - a list of links
+previous      | has two sub-items:<br> `text` - text label<br>`link` - a link
+next          | has two sub-items:<br> `text` - text label<br>`link` - a link
+
 ## For developers…
 
 ### Running locally
