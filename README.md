@@ -17,7 +17,7 @@ That stuff at the top of the file is called '[front matter](http://jekyllrb.com/
 
 By the way, this is the '`plain`' HTML `layout`, which has a GitHub appearance.
 
-## Layout options
+## Front matter options
 
 ### govuk
 
