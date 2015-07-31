@@ -21,6 +21,8 @@ By the way, this is the '`plain`' HTML `layout`, which has a GitHub appearance.
 
 ### govuk
 
+All are optional except `layout`.
+
 Variable      | Description
 ------------- | -----------
 layout        | name of the template `govuk`
