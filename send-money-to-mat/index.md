@@ -25,7 +25,7 @@ You can use your bank account to send money to a Mat. You'll need:
 
 Use:
 
-- name
+- your name
 - whatev lols
 
 If you don’t know the your name, you're probably too drunk and should do this when you sober-up.
