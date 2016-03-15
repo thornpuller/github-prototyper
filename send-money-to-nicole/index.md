@@ -12,7 +12,7 @@ related:
   title: Other bits of Nicole
   links:
     - For friends of Nicole: http://nicolekai.com
-    - Nicole's life: http://nicolekai.com
+    - Nicole's life: https://de.wikipedia.org/wiki/Olha_Kobylanska
 ---
 
 You can use your bank account to send money to a Nicole. You'll need:
